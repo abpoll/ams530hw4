@@ -293,7 +293,7 @@ MPI_Comm_size(MPI_COMM_WORLD,&numtasks);
 
 srand((unsigned int)time(NULL));
 
-num_adjs = 280000; /*Total number of adjacency matrices. Can adjust */
+num_adjs = 28000000; /*Total number of adjacency matrices. Can adjust */
 
 aveadj = num_adjs/numtasks;
 extra = num_adjs%numtasks;
