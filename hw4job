@@ -8,8 +8,7 @@ module load mvapich2/gcc/64/2.2rc1
 
 cd$HOME
 
-mpirun -np 4 ./3kgraph > $HOME/graph4p2.txt
-mpirun -np 28 ./3kgraph > $HOME/graph28p2.txt
-mpirun -np 56 ./3kgraph > $HOME/graph56p2.txt
+mpirun -np 28 ./3kgraph > $HOME/graph28p.txt
+mpirun -np 56 ./3kgraph > $HOME/graph56p.txt
 
 
